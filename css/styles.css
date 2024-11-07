@@ -1,0 +1,161 @@
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> USING GLOBAL SELECTION<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+body {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: serif;
+}
+
+p {
+    color: gray;
+}
+
+/* Big Heading */
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Navigation Bar */
+
+.download-button {
+    margin: 15px;
+}
+
+.navbar {
+    padding-bottom: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: arial;
+}
+
+.navbar-brand {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+/* Title  */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.title-image {
+    width: 20%;
+    rotate: 25deg;
+    position: absolute;
+    right: 25%;
+}
+
+/* Features Section */
+
+#features {
+    background-color: #fff;
+    position: relative;
+
+}
+
+.feature-heading{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.features-box {
+    padding: 7%;
+
+}
+
+/* Testimonial Section */
+
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+}
+
+.testimonial-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Press Section */
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+
+}
+
+#press {
+    padding: 3%;
+    background-color: #ef8172;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price-heading{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.pricing-card {
+    padding: 5% 3%;
+}
+
+.card-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* CTA Section */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* Footer Section */
+
+
+/* ////////////////////////////     MEDIA QEURY     /////////////////////////////////*/
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        rotate: 0deg;
+        width: 60%;
+        padding-top: 20px;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
